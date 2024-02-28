@@ -12,10 +12,10 @@ const Input = ({ value, onChange, placeholder, size = "md" }: InputProps) => {
       onChange={onChange}
       placeholder={placeholder}
       className={`
-        ${size === "sm" && "w-20 h-8 text-sm"}
-        ${size === "md" && "w-40 h-10 text-md"}
-        ${size === "lg" && "w-60 h-12 text-lg"}
-        px-2 border-none rounded-sm`}
+        ${size === "sm" && "w-40 h-8 text-sm"}
+        ${size === "md" && "w-60 h-10 text-md"}
+        ${size === "lg" && "w-80 h-12 text-lg"}
+        px-2 rounded-sm outline-none border-[pink] border-2 `}
     />
   );
 };

@@ -12,7 +12,7 @@ const Button = ({ text, onClick, size = "md" }: ButtonProps) => {
             ${size === "sm" && "w-20 h-8 text-sm"}
             ${size === "md" && "w-40 h-10 text-md"}
             ${size === "lg" && "w-60 h-12 text-lg"}
-            bg-[pink] rounded-sm border-none`}
+            bg-[pink] rounded-sm border-none hover:bg-[#ff7eb9] outline-none`}
     >
       {text}
     </button>
